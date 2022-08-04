@@ -27,8 +27,7 @@ function setup() {
 //crie o solo
 //adicione ao mundo
 
-  ball = Bodies.circle(100,10,20,ball_options);
-  World.add(world,ball);
+
   
   
   
@@ -45,7 +44,6 @@ function draw()
   
   
 
-  ellipse(ball.position.x,ball.position.y,20);
   //escreva uma função de retângulo para exibir o solo.
  
 
